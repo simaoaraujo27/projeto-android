@@ -18,7 +18,6 @@
     --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
     --fonte-destaque: 'Bebas Neue', cursive;
     --fonte-android: 'Android', cursive;
-
 }
 
 * {
@@ -192,4 +191,10 @@ footer a {
 footer a:hover {
     text-decoration: underline;
     color: var(--cor1)
+}
+
+@media screen and (max-width: 600px) {
+    nav > a {
+        font-size: 0.8em;
+    }
 }
